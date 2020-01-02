@@ -19,14 +19,12 @@ h1 {
 }
 
 .main {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   height: 1500px;
 }
 
 .main-sidebar-body {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   width: 25%;
   height: 100%;
 }
@@ -34,8 +32,7 @@ h1 {
 .body-sidebar-sidebarContainer {
   background-color: #9A9DAB;
   border: 1px solid black;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   align-items: center;
   text-align: center;
   overflow: scroll;
@@ -73,8 +70,7 @@ h1 {
 }
 
 .sidebar-body-friendContainer {
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
 }
 
 .sidebar-friendContainer-listItems {
@@ -85,26 +81,22 @@ h1 {
   width: 100%;
   border: 1px solid black;
   margin: 0 0 1em;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   overflow: scroll;
 }
 
 .main-column-hydration {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   height: 25%
 }
 
 .main-column-activity {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   height: 50%
 }
 
 .main-column-sleep {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   height: 35%
 }
 
@@ -112,16 +104,14 @@ h1 {
   width: 100%;
   background-color: white;
   border: 1px solid black;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   align-items: center;
   margin: 1%;
   justify-content: space-between;
 }
 
 .horizontalCard-activity-container {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   justify-content: space-around;
   width: 100%;
   overflow: scroll;
@@ -131,8 +121,7 @@ h1 {
   width: 100%;
   background-color: white;
   border: 1px solid black;
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   margin: 1%;
   overflow: scroll;
 }
@@ -144,8 +133,7 @@ h1 {
   font-size: $card-today-font;
   margin: .5em;
   font-family: $main-font;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: space-between;
   width: 80%;
 }
@@ -157,8 +145,7 @@ h1 {
   font-size: $card-today-font;
   margin: .5em;
   font-family: $main-font;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: space-between;
   width: 80%;
 }
@@ -170,8 +157,7 @@ h1 {
   font-size: $card-today-font;
   margin: .3em;
   font-family: $main-font;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: space-between;
   width: 40%;
 }
@@ -182,8 +168,7 @@ h1 {
   font-size: 1em;
   margin: .5em;
   font-family: $main-font;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: flex-start;
   width: 50%;
 }
@@ -194,8 +179,7 @@ h1 {
   font-size: 1em;
   margin: .5em;
   font-family: $main-font;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: flex-start;
   width: 50%;
 }
@@ -206,8 +190,7 @@ h1 {
   font-size: 1em;
   margin: .5em;
   font-family: $main-font;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: flex-start;
   width: 50%;
   height: 93%;
