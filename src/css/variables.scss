@@ -1,0 +1,16 @@
+$primary-bg: #4d4e4f;
+$card-today-font: 1.5em;
+$main-font: sans-serif;
+$hydration-bg: #5BC8AC;
+$sleep-bg: #EC96A4;
+$activity-bg: #DFE166;
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
