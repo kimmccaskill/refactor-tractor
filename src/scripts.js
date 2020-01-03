@@ -15,9 +15,9 @@ import Hydration from './Hydration';
 import Sleep from './Sleep';
 import UserRepo from './User-repo';
 
-var sidebarName = document.getElementById('sidebarName');
-var stepGoalCard = document.getElementById('stepGoalCard');
-var avStepGoalCard = document.getElementById('avStepGoalCard');
+var sidebarName = document.querySelector('.sidebarName');
+var stepGoalCard = document.querySelector('.stepGoalCard');
+var avStepGoalCard = document.querySelector('.avStepGoalCard');
 var headerText = document.getElementById('headerText');
 var userAddress = document.getElementById('userAddress');
 var userEmail = document.getElementById('userEmail');
